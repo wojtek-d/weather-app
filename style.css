@@ -1,3 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
 #placeholder-text-box {
   width: 195px;
+}
+
+.wrapper {
+  margin-top: 5em;
+  display: grid;
+  grid-column: auto;
+  align-items: center;
+  justify-content: center;
+}
+.grid-row {
+  justify-content: center;
+  display: flex;
+}
+#flag-icon {
+  max-width: 5rem;
+  display: c;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+body::-webkit-scrollbar {
+  opacity: 0;
+  transition: opacity 0.2s linear;
 }
