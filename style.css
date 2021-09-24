@@ -1,20 +1,41 @@
-body {
+body,
+html {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #1a1a1a;
-  color: #fff;
 }
 
-#placeholder-text-box {
-  width: 195px;
+.bg {
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.wrapper {
+.container {
+  color: white;
+  border-radius: 45px;
   margin-top: 5em;
+  padding: 5em;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 5em;
   display: grid;
   grid-column: auto;
   align-items: center;
   justify-content: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-column: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#placeholder-text-box {
+  width: 195px;
 }
 .grid-row {
   justify-content: center;
@@ -22,16 +43,4 @@ body {
 }
 #flag-icon {
   max-width: 5rem;
-  display: c;
-}
-
-body::-webkit-scrollbar-track {
-  background: #1e1e24;
-}
-body::-webkit-scrollbar-thumb {
-  background: #6649b8;
-}
-body::-webkit-scrollbar {
-  opacity: 0;
-  transition: opacity 0.2s linear;
 }
