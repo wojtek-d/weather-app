@@ -28,7 +28,7 @@ async function run(city) {
   flagDOM.src = country.flags[0];
   iconDOM.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
-  bg.style.backgroundImage = `url("https://source.unsplash.com/1600x1080/?/${
+  bg.style.backgroundImage = `url("https://source.unsplash.com/1920x1080/?/${
     weatherData.sys.country
   }+${description.replaceAll(" ", "+")}")`;
 }
